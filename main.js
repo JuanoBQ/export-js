@@ -4,11 +4,15 @@ console.log("-------------------------------------------------------")
 console.log("Ejercicio 1: Archivo Constantes")
 //Ejercicio 1: Archivo Constantes
 
+function area (radio){
+    return radio*radio*PI
+}
+
 function precioConIVA (precio) {
     return precio*IVA+precio
 }
 
-console.log(`El area del circulo es: `,areaCirculo(5))
+console.log(`El area del circulo es: `,area(5))
 console.log("Precio + IVA: ",precioConIVA(100))
 console.log("El tercer dia de la semana es:",DIAS_SEMANA[2])
 
